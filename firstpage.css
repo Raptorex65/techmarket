@@ -3,28 +3,31 @@
     padding:0;
 }
 
+#body {
+    background-color: #428F8C;
+}
 /* Main section yazılar ve resimler */
 .description_container{
-    width: 100%;
-    padding: 10px 30px;
-    background-color: rgb(235, 222, 207);
+    width: 94%;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #b2dfdb;
 }
 
 .text{
+    color: #455a64;
     text-align: justify;
     font-family: 'Zilla Slab', serif;
-    font-size: 
-    font-weight: ;
-    font-style: ;
     padding: 0px 10px;
-    margin-right: 30px;
+    margin-right: 
 }
 
 .image_right {
     float: right;
     width: 450px;
     height: 300px;
-    margin: 0px 30px; 
+    margin: 20px 10px;
+    padding-left: 20px; 
 }
 
 .image-left {
@@ -40,8 +43,8 @@
     height: 80px;
     margin: auto;
     padding: 10px 20px;
-    background-color: salmon;
-    color: rgb(235, 222, 207);
+    background-color: #ff7043;
+    color: #fbe9e7;
     font-family: 'Audiowide', cursive;
     font-size:32px;
     
@@ -50,12 +53,11 @@
 .menu { 
     position: static; 
     top: 0; 
-    padding:20px; 
-    color:hsla(hue, saturation, lightness, alpha)
+    color:#258f87;
     margin: 0 auto; 
-    padding: 20px 10px;
+    padding: 20px 20px;
     overflow: hidden;
-    background-color:rgb(235, 222, 207);
+    background-color:#428F8C;
     font-family: 'Audiowide', cursive;
   
 } 
@@ -65,7 +67,7 @@
     float: right; 
 } 
 a{
-    color: salmon;
+    color: #fbe9e7;
 }
 
 a:hover{
@@ -74,8 +76,8 @@ a:hover{
 
 
 #openingwindow{
-    background-color:rgb(253, 186, 179);
-    padding: 5px 10px;
+    background-color:#ff8a65;
+    padding: 10px 10px;
 }
 
 .sum {
@@ -86,7 +88,7 @@ a:hover{
 
 
 .responsive{
-    background-color:rgb(235, 222, 207);
+    background-color:#428F8C;
     width: 45%;
     padding: 20px;
     display: inline-block;
@@ -95,7 +97,7 @@ a:hover{
 
 .gallery{
     border: 1px solid #cccccc;  
-    
+    display: inline-block;
 }
 
 .gallery:hover {
